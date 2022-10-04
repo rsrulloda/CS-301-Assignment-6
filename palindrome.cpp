@@ -5,7 +5,7 @@
 #include <string>
 using namespace std;
 
-bool isPalindrome(string s) {
+bool isPalindrome(string s) { // this sets the palindrome file for the if statement
     if(s.length()<=1){
         return true;
     }
@@ -19,7 +19,7 @@ bool isPalindrome(string s) {
         }
     }
 }
-int main(){
+int main(){ // the main sets the output for the program
     string str;
     string s;
     cout<<"Enter a String to test: ";
